@@ -1,0 +1,24 @@
+/* font */
+@import url("//fonts.googleapis.com/css?family=Exo+2");
+
+body, label, .form-control {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+}
+
+h1, h5 {
+  font-weight: 600;
+  text-align: center;
+}
+
+hr {
+  border-top-color: #89B0C8;
+}
+
+.shiny-text-output {
+  height: 200px;
+  white-space: pre-wrap;
+  overflow-y: scroll;
+}
