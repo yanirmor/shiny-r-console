@@ -50,7 +50,7 @@ server <- function(input, output, session) {
       paste((eval(parse(text = input$command))), collapse = " ")
     })
     
-    console(paste(console(), "\n", ">", input$command, "\n", log, "\n"))
+    console(paste(">", input$command, "\n", log, "\n\n", console(), "\n"))
     updateTextInput(session = session, inputId = "command", value = "")
   })
   
