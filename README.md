@@ -1,7 +1,7 @@
 # Shiny R Console
 
 Small app that simulates an R console and lets you run R commands.  
-Can server for live debugging and transparency of the hosting environment.  
+Can serve for live debugging and transparency of the hosting environment.  
 https://yanirmor.shinyapps.io/shiny-r-console/
 
 ---
